@@ -1,0 +1,19 @@
+{
+  "Products": [
+      {
+          "item_name": "Sauce Labs Backpack",
+          "item_price": "$29.99"
+      },
+      {
+          "item_name": "Sauce Labs Bike Light",
+          "item_price": "$9.99"
+      },
+      {
+          "item_name": "Test.allTheThings() T-Shirt (Red)",
+          "item_price": "$15.99"
+      }
+  ],
+      "TotalTax": 4.48,
+      "Total": 60.45,
+      "TotalItem": 55.97
+  }

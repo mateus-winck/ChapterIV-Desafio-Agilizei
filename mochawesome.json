@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2023-10-13T17:24:39.318Z",
-    "end": "2023-10-13T17:24:49.471Z",
-    "duration": 10153,
+    "start": "2023-10-13T17:54:24.200Z",
+    "end": "2023-10-13T17:54:33.628Z",
+    "duration": 9428,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b7a37e3a-c1a4-4994-a2f9-7967b4f76ef6",
+      "uuid": "e5ecd205-81a0-48f4-babb-ccf2d803fe22",
       "title": "",
       "fullFile": "cypress/e2e/Specs/Jornada.cy.js",
       "file": "cypress/e2e/Specs/Jornada.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c1e39054-b979-485e-ba9f-83f5253ffeda",
+          "uuid": "297878e7-8c7f-4e91-bc47-b28e270010f1",
           "title": "Jornada de Compra do Usuário",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Efetua login no site",
               "fullTitle": "Jornada de Compra do Usuário Efetua login no site",
               "timedOut": null,
-              "duration": 2543,
+              "duration": 2477,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "_LoginPage.default.verificarPaginaPosLogin();",
               "err": {},
-              "uuid": "2f1affbe-af37-4290-a6f3-1fecec445d61",
-              "parentUUID": "c1e39054-b979-485e-ba9f-83f5253ffeda",
+              "uuid": "4baf81e9-a1a1-488b-8a7b-8b4b2827f1a9",
+              "parentUUID": "297878e7-8c7f-4e91-bc47-b28e270010f1",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Adiciona produtos e navega para o carrinho",
               "fullTitle": "Jornada de Compra do Usuário Adiciona produtos e navega para o carrinho",
               "timedOut": null,
-              "duration": 2496,
+              "duration": 2318,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "_StorePage.default.adicionarItens();\n_StorePage.default.acessarCarrinho();\n_CartPage.default.ValidarMochilaCarrinho();\n_CartPage.default.ValidarLuzBikeCarrinho();\n_CartPage.default.ValidarCamisetaCarrinho();\n_CartPage.default.ValidarQuantidadeItensCarrinho();",
               "err": {},
-              "uuid": "2c62f2a8-f013-49e3-a35f-c3d4a78305cb",
-              "parentUUID": "c1e39054-b979-485e-ba9f-83f5253ffeda",
+              "uuid": "7b6878af-1913-4a0e-948d-e081dd2db39a",
+              "parentUUID": "297878e7-8c7f-4e91-bc47-b28e270010f1",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Adiciona produtos e realiza checkout",
               "fullTitle": "Jornada de Compra do Usuário Adiciona produtos e realiza checkout",
               "timedOut": null,
-              "duration": 4853,
+              "duration": 4350,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "_StorePage.default.adicionarItens();\n_StorePage.default.acessarCarrinho();\n_CartPage.default.ValidarMochilaCarrinho();\n_CartPage.default.ValidarLuzBikeCarrinho();\n_CartPage.default.ValidarCamisetaCarrinho();\n_CartPage.default.ValidarQuantidadeItensCarrinho();\n_CartPage.default.NavegarPaginaCheckout();\n_CheckoutOnePage.default.RealizarPreenchimentoValido();\n_CheckoutOnePage.default.CheckoutButton();\n_CheckoutTwoPage.default.ValidarProdutosCheckout();\n_CheckoutTwoPage.default.FinalizarCompra();",
               "err": {},
-              "uuid": "bdc9d11a-d34d-488a-bba2-00ecfd73164e",
-              "parentUUID": "c1e39054-b979-485e-ba9f-83f5253ffeda",
+              "uuid": "1794b09f-800c-4152-943b-9381a6daaf9e",
+              "parentUUID": "297878e7-8c7f-4e91-bc47-b28e270010f1",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2f1affbe-af37-4290-a6f3-1fecec445d61",
-            "2c62f2a8-f013-49e3-a35f-c3d4a78305cb",
-            "bdc9d11a-d34d-488a-bba2-00ecfd73164e"
+            "4baf81e9-a1a1-488b-8a7b-8b4b2827f1a9",
+            "7b6878af-1913-4a0e-948d-e081dd2db39a",
+            "1794b09f-800c-4152-943b-9381a6daaf9e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 9892,
+          "duration": 9145,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
